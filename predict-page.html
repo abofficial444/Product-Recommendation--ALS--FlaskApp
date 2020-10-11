@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+    <style>
+          html,
+    body {
+      display: flex;
+      justify-content: center;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 15px;
+      background-color: whitesmoke;
+    }
+
+        h4 {
+            text-align: center;
+            font-size: 15px;
+            Color: Blue;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class='container'>
+        <div id='title'>
+            <h1> PRODUCT RECOMMENDATION RESULT</h1>
+        </div>
+
+        <div>
+            <h4></br></br> Dear Customer {{ search_name}} We Recommend the following products for you</h4>
+            <h3> Recommended Products Name: {{ product_name }} </h3>
+            <h3> Recommended Products Type: {{ productT }}</h3>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
