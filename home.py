@@ -18,12 +18,12 @@ from sklearn.preprocessing import MinMaxScaler
 
 app =flask.Flask(__name__, template_folder='templates')
 
-path = '/Users/DELL/Desktop/'
+path = '/Users/DELL/Desktop/project-1/'
 dataset = 'Data.xlsx'
 
 
 def read_data():
-    data = pd.read_excel(path + dataset)
+    data = pd.read_excel(path+dataset)
     return data
 
 
