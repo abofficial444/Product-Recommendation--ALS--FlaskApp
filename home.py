@@ -18,6 +18,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 app =flask.Flask(__name__, template_folder='templates')
 
+#change path to yours
 path = '/Users/DELL/Desktop/project-1/'
 dataset = 'Data.xlsx'
 
