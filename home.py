@@ -5,7 +5,6 @@ import pickle
 import warnings
 from scipy.sparse import csr_matrix
 from IPython.display import display_html
-import warnings
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 import scipy.sparse as sparse
