@@ -1,5 +1,5 @@
 # Product-Recommendation-App
-A complete web app project using anonymized data
+A complete RecSys project using anonymized data
 
 NB: Check Back for Deployement on Heroku and Consumed as an API
 
